@@ -1,0 +1,12 @@
+body {
+  margin-top: 300px;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.name__Ui {
+  font-size: 30px;
+  border: none;
+}
