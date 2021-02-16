@@ -4,13 +4,19 @@
   align-items: center;
   justify-items: center;
 }
+.mid_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .name__Ui {
   font-size: 30px;
   border: none;
 }
 
 .clock {
-  font-size: 50px;
+  font-size: 60px;
 }
 .top_div {
   margin-top: 100px;
@@ -23,7 +29,25 @@
 .greetings {
   display: none;
 }
-
+.form {
+  opacity: 0.4;
+  border: none;
+  background-color: none;
+}
 .showing {
-  display: block;
+  display: flex;
+}
+
+.greetings {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
